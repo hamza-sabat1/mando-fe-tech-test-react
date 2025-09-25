@@ -22,4 +22,15 @@ export default meta
 
 type Story = StoryObj<typeof meta>
 
-export const Basic: Story = {}
+export const Basic: Story = {
+  args: {
+    logoSrc: 'public/images/mandogroup_logo.svg',
+    logoAlt: 'Mando logo',
+    logoUrl: '/',
+    logoSrText: 'Go to homepage',
+    linkLabel1: 'About us',
+    linkUrl1: '/about-us',
+    linkLabel2: 'Contact us',
+    linkUrl2: '/contact-us',
+  },
+};

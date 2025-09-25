@@ -1,1 +1,15 @@
-@use './_header.scss';
+
+@use './header';
+
+:root { color-scheme: light; }
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body {
+  margin: 0;
+  font-family: system-ui;
+  line-height: 1.5;
+  color: #222;
+  background: #fff;
+}
+img { max-width: 100%; display: block; }
+a { color: inherit; }
