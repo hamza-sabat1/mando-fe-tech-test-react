@@ -5,10 +5,18 @@ const meta: Meta<typeof Header> = {
   title: 'Components/Header',
   component: Header,
   tags: ['autodocs'],
+  parameters: { layout: 'fullscreen' },
   argTypes: {
-    // ToDo: Add argTypes
-  }
-}
+    logoSrc: { control: 'text' },
+    logoAlt: { control: 'text' },
+    logoUrl: { control: 'text' },
+    logoSrText: { control: 'text' },
+    linkLabel1: { control: 'text' },
+    linkUrl1: { control: 'text' },
+    linkLabel2: { control: 'text' },
+    linkUrl2: { control: 'text' },
+  },
+};
 
 export default meta
 
